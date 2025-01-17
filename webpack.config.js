@@ -1,0 +1,12 @@
+// Basically this is just an object that we're going to export.
+// And It uses CommonJS syntax.
+
+const path = require('path');
+module.exports = {
+    mode : 'development',
+    entry : './src/index.js',
+    output : {
+        path : path.resolve(__dirname, 'dist'),
+        filename : 'bundle.js',
+    },
+};
