@@ -9,4 +9,9 @@ class Person {
     }
 }
 
-export default Person;
+
+const [a,b] = [2,4,5,6];
+
+export {
+    Person, a
+};
