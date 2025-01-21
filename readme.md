@@ -7,17 +7,19 @@ This is a basic starter kit for building modern web applications using Webpack. 
 ## Installation
 
 ### Install dependencies
+
 ```sh
 npm install
 ```
 
 ### To create a production build
+
 ```sh
 npm run build
 ```
 
-
 ## File Structure
+
 ```sh
 project
 ├── dist/                  # Production build files
@@ -30,4 +32,3 @@ project
 ├── webpack.config.js      # Webpack configuration
 └── README.md              # Project documentation
 ```
-
